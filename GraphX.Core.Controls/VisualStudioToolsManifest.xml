@@ -1,0 +1,18 @@
+<FileList>
+  <File Reference = "GraphX-Core-Controls-ManagedPackage.winmd" >
+    <ToolboxItems VSCategory="GraphX Package" BlendCategory="GraphX Package">
+      <Item Type="GraphX.Controls.AttachableEdgeLabelControl"/>
+      <Item Type="GraphX.Controls.EdgeLabelControl"/>
+      <Item Type="GraphX.Controls.DefaultEdgePointer"/>
+      <Item Type="GraphX.Controls.StaticVertexConnectionPoint"/>
+      <Item Type="GraphX.Controls.AttachableVertexLabelControl"/>
+      <Item Type="GraphX.Controls.VertexLabelControl"/>
+      <Item Type="GraphX.Controls.ViewFinderDisplay"/>
+      <Item Type="GraphX.Controls.ZoomContentPresenter"/>
+      <Item Type="GraphX.Controls.ZoomControl"/>
+      <Item Type="GraphX.Controls.EdgeControl"/>
+      <Item Type="GraphX.Controls.GraphArea"/>
+      <Item Type="GraphX.Controls.VertexControl"/>
+    </ToolboxItems>
+  </File>
+</FileList>

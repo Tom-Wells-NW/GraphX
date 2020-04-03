@@ -39,6 +39,10 @@ This library supports following platforms:
   </PropertyGroup>
 
   <ItemGroup>
+    <None Include="VisualStudioToolsManifest.xml" />
+  </ItemGroup>
+
+  <ItemGroup>
     <Compile Include="..\GraphX.Controls\Animations\DeleteFadeAnimation.cs" Link="Animations\DeleteFadeAnimation.cs" />
     <Compile Include="..\GraphX.Controls\Animations\DeleteShrinkAnimation.cs" Link="Animations\DeleteShrinkAnimation.cs" />
     <Compile Include="..\GraphX.Controls\Animations\Enums\DeleteAnimation.cs" Link="Animations\Enums\DeleteAnimation.cs" />
