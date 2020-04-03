@@ -2,7 +2,7 @@
 
   <PropertyGroup>
     <TargetFramework>netstandard2.0</TargetFramework>
-    <Version>3.0.0-alpha.1</Version>
+    <Version>3.0.0-alpha.4</Version>
     <PackageId>Tom-Wells-NW.GraphX.Standard.Logic</PackageId>
     <Authors>Tom-Wells-NW</Authors>
     <Company></Company>
@@ -21,6 +21,9 @@ This library supports following platforms:
 - Universal Windows Platform (UWP or UAP) on Windows 10
 - Xamarin/Uno (WIP, only logic core is available)
 </PackageReleaseNotes>
+    <AssemblyVersion>3.0.0.4</AssemblyVersion>
+    <FileVersion>3.0.0.4</FileVersion>
+    <PackageIcon>nuget-icon-generic.png</PackageIcon>
   </PropertyGroup>
 
   <ItemGroup>
@@ -29,6 +32,13 @@ This library supports following platforms:
 
   <ItemGroup>
     <ProjectReference Include="..\GraphX.Standard.Common\GraphX.Standard.Common.csproj" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <None Include="..\Documents\nuget-icon-generic.png">
+      <Pack>True</Pack>
+      <PackagePath></PackagePath>
+    </None>
   </ItemGroup>
 
 </Project>

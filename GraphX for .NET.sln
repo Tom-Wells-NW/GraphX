@@ -9,6 +9,7 @@ Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Documents", "Documents", "{
 	ProjectSection(SolutionItems) = preProject
 		Documents\AIV.cs = Documents\AIV.cs
 		Documents\CHANGELOG.txt = Documents\CHANGELOG.txt
+		GraphX.Standard.Logic\nuget-icon-generic.png = GraphX.Standard.Logic\nuget-icon-generic.png
 		README.md = README.md
 		Documents\TODO.txt = Documents\TODO.txt
 	EndProjectSection
@@ -243,7 +244,7 @@ Global
 		{3B16A930-459F-4012-9404-8F5F95EED4DD} = {D9664367-2C2C-46B2-81A6-26CDCD087B29}
 	EndGlobalSection
 	GlobalSection(ExtensibilityGlobals) = postSolution
-		SolutionGuid = {9548CBF3-9C1D-4132-B928-475E2AA6A99B}
 		VisualSVNWorkingCopyRoot = .
+		SolutionGuid = {9548CBF3-9C1D-4132-B928-475E2AA6A99B}
 	EndGlobalSection
 EndGlobal
