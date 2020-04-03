@@ -1,7 +1,7 @@
 ﻿RELEASE 3.0.0
 - Added .NET Core library version
 - Upgraded codebase to .NET Standard 2.0 (thanks to honza77)
-- Upgraded codebase to use QUickGraphCore library
+- Upgraded codebase to use QuickGraphCore library
 
 RELEASE 2.3.8
 - Implemented multiple labels logic for edges. Now you can display multiple labels across the edge

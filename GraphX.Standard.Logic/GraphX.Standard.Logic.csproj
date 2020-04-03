@@ -2,6 +2,25 @@
 
   <PropertyGroup>
     <TargetFramework>netstandard2.0</TargetFramework>
+    <Version>3.0.0-alpha.1</Version>
+    <PackageId>Tom-Wells-NW.GraphX.Standard.Logic</PackageId>
+    <Authors>Tom-Wells-NW</Authors>
+    <Company></Company>
+    <PackageProjectUrl>https://github.com/Tom-Wells-NW/GraphX</PackageProjectUrl>
+    <PackageTags>GraphX;QuickGraphCore;QuickGraph;.NET Core 3.1;.NET Standard 2.0;WPF Controls;</PackageTags>
+    <Description>A fork of GraphX project by panthernet. GraphX.Standard.Logic is a sub package of the GraphX package.</Description>
+    <PackageLicenseExpression>https://github.com/Tom-Wells-NW/GraphX/blob/PCL/LICENSE</PackageLicenseExpression>
+    <GeneratePackageOnBuild>true</GeneratePackageOnBuild>
+    <PackageReleaseNotes>RELEASE 3.0.0
+- Added .NET Core library version
+- Upgraded codebase to .NET Standard 2.0 (thanks to honza77)
+- Upgraded codebase to use QuickGraphCore library
+
+This library supports following platforms:
+- Windows Desktop (.NET Core/WPF/WinForms on Windows 7+ using .NET4.6.1+ or .NET Core 3.1)
+- Universal Windows Platform (UWP or UAP) on Windows 10
+- Xamarin/Uno (WIP, only logic core is available)
+</PackageReleaseNotes>
   </PropertyGroup>
 
   <ItemGroup>

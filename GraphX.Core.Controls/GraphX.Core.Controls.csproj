@@ -5,6 +5,26 @@
     <UseWPF>true</UseWPF>
     <UseWindowsForms>true</UseWindowsForms>
     <RootNamespace>GraphX.Controls</RootNamespace>
+    <Version>3.0.0-alpha.1</Version>
+    <Authors>Tom-Wells-NW</Authors>
+    <Company></Company>
+    <Product></Product>
+    <PackageId>Tom-Wells-NW.GraphX.Core.Controls</PackageId>
+    <PackageTags>GraphX;QuickGraphCore;QuickGraph;.NET Core 3.1;.NET Standard 2.0;WPF Controls;</PackageTags>
+    <PackageProjectUrl>https://github.com/Tom-Wells-NW/GraphX</PackageProjectUrl>
+    <PackageLicenseExpression>https://github.com/Tom-Wells-NW/GraphX/blob/PCL/LICENSE</PackageLicenseExpression>
+    <Description>A fork of GraphX project by panthernet. GraphX.Core.Controls is a sub package of the GraphX package.</Description>
+    <GeneratePackageOnBuild>true</GeneratePackageOnBuild>
+    <PackageReleaseNotes>RELEASE 3.0.0
+- Added .NET Core library version
+- Upgraded codebase to .NET Standard 2.0 (thanks to honza77)
+- Upgraded codebase to use QuickGraphCore library
+
+This library supports following platforms:
+- Windows Desktop (.NET Core/WPF/WinForms on Windows 7+ using .NET4.6.1+ or .NET Core 3.1)
+- Universal Windows Platform (UWP or UAP) on Windows 10
+- Xamarin/Uno (WIP, only logic core is available)
+</PackageReleaseNotes>
   </PropertyGroup>
 
   <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|AnyCPU'">
